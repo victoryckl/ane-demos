@@ -1,10 +1,9 @@
 package com.example.helloanenative;
 
-import android.os.Bundle;
-import android.os.Vibrator;
 import android.app.Activity;
 import android.content.Context;
-import android.view.Menu;
+import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.View;
 import android.view.View.OnClickListener;
 

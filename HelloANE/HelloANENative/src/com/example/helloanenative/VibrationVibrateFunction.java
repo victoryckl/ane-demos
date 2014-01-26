@@ -1,15 +1,15 @@
 package com.example.helloanenative;
 
+import android.util.Log;
+
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
-import com.adobe.fre.FREInvalidObjectException;
 import com.adobe.fre.FREObject;
-import com.adobe.fre.FRETypeMismatchException;
-import com.adobe.fre.FREWrongThreadException;
 
 public class VibrationVibrateFunction implements FREFunction {
 	@Override
 	public FREObject call(FREContext context, FREObject[] passedArgs) {
+		Log.i(Config.TAG, "VibrationVibrateFunction.call()");
 		FREObject result = null;
 		VibrationExtensionContext vbc = (VibrationExtensionContext) context;
 		
