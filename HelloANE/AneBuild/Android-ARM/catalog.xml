@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/example/helloanenative/Vibrate" mod="1390807699681" signatureChecksum="1066427978" >
+        <def id="com.example.helloanenative:Vibrate" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="_aa184e69246af74c260f60fc039a6cb8050421629ea19b94cbda3607a86a5c80_flash_display_Sprite" mod="1390807700028" signatureChecksum="4128340409" >
+        <def id="_aa184e69246af74c260f60fc039a6cb8050421629ea19b94cbda3607a86a5c80_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="241d8ccf84ca3e80d4f73c707b8551dfd6481062db3d5a00b7258bbdb8518657"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

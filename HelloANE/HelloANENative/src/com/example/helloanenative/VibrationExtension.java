@@ -9,7 +9,7 @@ public class VibrationExtension implements FREExtension {
 
 	@Override
 	public FREContext createContext(String contextType) {
-		Log.i(Config.TAG, "VibrationExtension.createContext()");
+		Log.i(Config.TAG, "VibrationExtension.createContext(), type: "+contextType);
 		return new VibrationExtensionContext();
 	}
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:s="library://ns.adobe.com/flex/spark" title="主页视图">
+	<fx:Script>
+		<![CDATA[
+			import com.example.helloanenative.Vibrate;
+			protected function onVibrate():void {
+				var v:Vibrate = new Vibrate();
+				trace("Is this ANE supported on this platform? " + Vibrate.isSupported);
+				v.vibrate(100);
+			}
+		]]>
+	</fx:Script>
+	<s:Button
+		id="btnVibrate"
+		x="100"
+		y="100"
+		label="Vibrate using ANE"
+		click="onVibrate()"/>	
+</s:View>

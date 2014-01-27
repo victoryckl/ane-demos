@@ -1,0 +1,12 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.example.helloanenative.Vibrate</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>HelloANENative.jar</nativeLibrary>
+				<initializer>com.example.helloanenative.VibrationExtension</initializer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
